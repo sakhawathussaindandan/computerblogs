@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import 'https    ://fonts.googleapis.com/css?family=Lato:900,700,400';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import 'https    ://fonts.googleapis.com/css?family=Lato:900,700,400';
+
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.header {
+    width           : 80vw;
+    background-color: antiquewhite;
+    margin          : auto;
+    background-image: url("computer.jpg");
+    height          : 200px;
+    background-size : cover;
+    padding         : 20px;
+    color           : white;
+    box-sizing      : border-box;
+    font-family     : 'Ubuntu', sans-serif;
+}
+
+
+.container_1 {
+    display         : flex;
+    box-sizing      : border-box;
+    padding         : 50px;
+    flex-wrap       : wrap;
+    width           : 80vw;
+    margin          : auto;
+    background-color: black;
+    color           : white;
+}
+
+.item1 {
+    width: 40vw;
+}
+
+.hed {
+    font-family: 'Ubuntu';
+    color      : #993333;
+}
+
+p {
+    line-height: 1.60;
+    font-family: "Lato", sans-serif;
+}
+
+
+.btn {
+    border          : 1px solid black;
+    padding         : 10px;
+    background-color: lightseagreen;
+    border-radius   : 23px;
+}
+
+
+.btn a {
+    text-decoration: none;
+    font-size      : large;
+    color          : white;
+}
+
+.container_2 {
+    padding            : 15px;
+    width              : 80vw;
+    margin             : auto;
+    box-sizing         : border-box;
+    text-align         : center;
+    /* background-color: lightslategray; */
+}
+
+.images {
+    display     : block;
+    margin-left : auto;
+    margin-right: auto;
+    width       : 60%;
+}
+
+.container_3 {
+    padding            : 10px;
+    width              : 80vw;
+    margin             : auto;
+    box-sizing         : border-box;
+    text-align         : center;
+    /* background-color: lightslategray; */
+    display            : flex;
+}
+
+h3 {
+    color     : rgb(233, 143, 7);
+    text-align: left;
+}
+
+.cen {
+    text-align: left;
+}
