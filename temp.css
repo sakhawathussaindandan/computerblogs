@@ -1,0 +1,235 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:900,700,400';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Lato:900,700,400';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    line-height: 1.20;
+    letter-spacing: -0.72px;
+    word-spacing: 0.00px;
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: -0.72px;
+    word-spacing: 0.00px;
+    text-transform: none;
+}
+
+h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: 0.00px;
+    word-spacing: 0.00px;
+    text-transform: none;
+}
+
+p {
+    font-family: "proxima-nova-thin", sans serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.60;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    letter-spacing: -0.30px;
+    word-spacing: -0.10px;
+    text-transform: none;
+}
+
+.container {
+    font-size: larger;
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.item1 {
+    background-color: yellowgreen;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url(computer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    color: white;
+    font-weight: 800;
+
+}
+
+
+.item2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+
+.item3 {
+    /* background-color: tomato; */
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item4 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+
+.item5 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.item6 {
+    background-color: springgreen;
+}
+
+.images {
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imags {
+    width: 50%;
+
+}
+
+.flexbx {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    max-height: 240px;
+}
+
+.imag {
+    width: 100%;
+    height: 90%;
+}
+
+/* form style */
+
+.form-style-6 {
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+}
+
+.form-style-6 h1 {
+    background: #43D1AF;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus {
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #43D1AF;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover {
+    background: #2EBC99;
+}
+
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    border: 2px solid crimson;
+}
